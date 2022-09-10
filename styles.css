@@ -25,6 +25,8 @@
   height: 50%;
   background-color: aqua;
   margin: 10px;
+  font-size: 40px;
+  padding-bottom: 5px;
 }
 
 .image {
@@ -36,4 +38,17 @@
 
 .img {
   height: 100%;
+}
+
+
+@media (max-height: 420px) {
+  .nav {
+    height: 62.99px;
+  }
+
+  .text-image {
+    height: 356.99px;
+  }
+
+
 }
